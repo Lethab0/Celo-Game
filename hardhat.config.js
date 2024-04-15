@@ -2,7 +2,7 @@ require("@nomiclabs/hardhat-waffle");
 require('dotenv').config({path: '.env'});
 
 // This is a sample Hardhat task. To learn how to create your own go to
-// https://hardhat.org/guides/create-task.html
+// https://hardhat.org/guides/create-task.html   31fe95216d7e43f3b1efd36fc8ca4cab
 task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
   const accounts = await hre.ethers.getSigners();
 
